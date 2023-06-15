@@ -1,0 +1,15 @@
+<!DOCTYPE FootPrinterPreferences>
+<PREFERENCES>
+ <SETTING defaultValue="RippleXerox" display="0" key="SettingsCode" value="RippleXerox" label="SettingsCode" type="QString"/>
+ <SETTING defaultValue="/home/pi" display="0" key="DataFolder" value="/home/pi" label="DataFolder" type="QString"/>
+ <SETTING defaultValue="/dev/ttyACM0" display="0" key="GPSDevice" value="/dev/ttyACM0" label="GPSDevice" type="QString"/>
+ <SETTING defaultValue="FootPrinterPreferences.xml" display="0" key="LastExportedFile" value="FootPrinterPreferences.xml" label="LastExportedFile" type="QString"/>
+ <SETTING defaultValue="42" display="0" key="LoadCellAddress" value="42" minimumValue="0" label="LoadCellAddress" type="int" maximumValue="255"/>
+ <SETTING defaultValue="/dev/i2c-1" display="0" key="LoadCellDevice" value="/dev/i2c-1" label="LoadCellDevice" type="QString"/>
+ <SETTING defaultValue="500" display="0" key="OffDuration" value="500" minimumValue="1" label="OffDuration" type="int" maximumValue="1000000"/>
+ <SETTING defaultValue="500" display="0" key="OnDuration" value="500" minimumValue="1" label="OnDuration" type="int" maximumValue="1000000"/>
+ <SETTING defaultValue="1000000" display="0" key="ReadingLimit" value="1000000" minimumValue="1" label="ReadingLimit" type="int" maximumValue="2147483647"/>
+ <SETTING defaultValue="200" display="0" key="StartingOffset" value="200" minimumValue="0" label="StartingOffset" type="int" maximumValue="50000"/>
+ <SETTING defaultValue="50000" display="0" key="StepsLimit" value="50000" minimumValue="1000" label="StepsLimit" type="int" maximumValue="50000"/>
+ <SETTING defaultValue="10" display="0" key="LimitCount" value="10" minimumValue="1" label="LimitCount" type="int" maximumValue="100"/>
+</PREFERENCES>

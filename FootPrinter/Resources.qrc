@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="go.svg">images/go-sign-33947-edit.svg</file>
+        <file alias="off.svg">images/power-off-switch-29786-edit.svg</file>
+        <file alias="stop.svg">images/stop-sign-33947-edit.svg</file>
+        <file alias="defaults.xml">preferences/default_values.xml</file>
+    </qresource>
+</RCC>

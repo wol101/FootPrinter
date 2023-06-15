@@ -1,0 +1,30 @@
+Notes for Raspberry Pi Install
+
+(1) gps support
+
+sudo apt-get install gpsd gpsd-clients python-gps
+
+edit "/etc/default/gpsd" to
+
+START_DAEMON="true"
+USBAUTO="true"
+DEVICES="dev/ttyACM0"
+
+(2) IC2 support
+
+Just enable in the RPI preferences
+
+(3) Qt
+
+Currently need to install the precompiled binaries for Qt5.15 support, and the various build-essential bits
+
+(4) Motors
+
+Turn off motors at startup using the python script "motor_test.py" by editing /etc/rc.local
+
+(5) 2.8" LCD support
+
+Currently this is built in but there are drivers on the internet that might be needed.
+
+
+
